@@ -45,5 +45,8 @@ def pass_fail(students):
         else:
             print("Fail")
 
+def show_student_count():
+    print(f"Total students: {len(students)}")
+
 if __name__ == "__main__":
     pass_fail(students)
